@@ -1,9 +1,10 @@
 import Navbar from "@/components/Navbar";
 import FadeIn from "@/components/FadeIn";
+import ScrollToTop from "./ScrollToTop";
 
 export default function Home() {
   return (
-    <main className="bg-black text-white min-h-screen relative overflow-hidden">
+    <main className= "pt-28 bg-black text-white min-h-screen relative overflow-hidden">
 <div className="absolute top-[-200px] left-[-200px] w-[500px] h-[500px] bg-purple-500/30 rounded-full blur-[120px]" />
 
 <div className="absolute bottom-[-200px] right-[-200px] w-[500px] h-[500px] bg-blue-500/30 rounded-full blur-[120px]" />
@@ -30,20 +31,8 @@ export default function Home() {
 >
   Download CV
 </a>
-
-        <div className="flex gap-4 mt-10">
-
-          <button className="bg-white text-black px-6 py-3 rounded-xl font-semibold hover:scale-105 hover:shadow-2xl transition">
-            View Projects
-          </button>
-
-          <button className="border border-white px-6 py-3 rounded-xl hover:bg-white hover:text-black transition">
-            Contact Me
-          </button>
-
-        </div>
-
       </section>
+
 <FadeIn>
       <section
   id="about"
@@ -404,12 +393,13 @@ export default function Home() {
 
   <div className="flex flex-wrap justify-center gap-6 mt-12">
 
-    <a
-      href="dk.chekroud@ensta.edu.dz"
-      className="bg-white text-black px-6 py-3 rounded-xl font-semibold hover:scale-105 transition"
-    >
-      Email Me
-    </a>
+    
+<a
+  href="mailto:chekroud.kamiii@gmail.com?subject=Contact Portfolio&body=Bonjour,"
+  className="border border-white/20 px-6 py-3 rounded-xl hover:bg-white hover:text-black transition"
+>
+  📧 Email Me
+</a>
 
     <a
       href="https://github.com/dkchekroud"
@@ -434,6 +424,9 @@ export default function Home() {
 <footer className="border-t border-white/10 py-8 text-center text-gray-500">
   © 2026 Kamelia Chekroud — Full Stack Developer
 </footer>
+
+<ScrollToTop />
+
     </main>
   );
 
