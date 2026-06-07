@@ -398,7 +398,7 @@ export default function Home() {
   href="mailto:chekroud.kamiii@gmail.com?subject=Contact Portfolio&body=Bonjour,"
   className="border border-white/20 px-6 py-3 rounded-xl hover:bg-white hover:text-black transition"
 >
-  📧 Email Me
+  Email Me
 </a>
 
 <a

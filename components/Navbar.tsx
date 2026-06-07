@@ -33,6 +33,21 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-8 text-white">
+          
+           <a
+  href="mailto:chekroud.kamiii@gmail.com?subject=Contact Portfolio&body=Bonjour,"
+  className="hover:text-cyan-400 transition"
+>
+  Email Me
+</a>
+
+<a
+      href="https://github.com/dkchekroud"
+      className="hover:text-cyan-400 transition"
+    >
+      GitHub
+    </a>
+          
           <a href="#about" className="hover:text-cyan-400 transition">
             About
           </a>
@@ -61,15 +76,14 @@ export default function Navbar() {
           
           <a
   href="mailto:chekroud.kamiii@gmail.com?subject=Contact Portfolio&body=Bonjour,"
-  className="border border-white/20 px-6 py-3 rounded-xl hover:bg-white hover:text-black transition"
+  className="hover:text-cyan-400 transition"
 >
-  📧 Email Me
+  Email Me
 </a>
 
 <a
       href="https://github.com/dkchekroud"
-      target="_blank"
-      className="border border-white/20 px-6 py-3 rounded-xl hover:bg-white hover:text-black transition"
+      className="hover:text-cyan-400 transition"
     >
       GitHub
     </a>
