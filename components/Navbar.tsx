@@ -58,12 +58,32 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden bg-black border-t border-white/10 px-6 py-4 flex flex-col gap-4 text-white">
+          
+          <a
+  href="mailto:chekroud.kamiii@gmail.com?subject=Contact Portfolio&body=Bonjour,"
+  className="border border-white/20 px-6 py-3 rounded-xl hover:bg-white hover:text-black transition"
+>
+  📧 Email Me
+</a>
+
+<a
+      href="https://github.com/dkchekroud"
+      target="_blank"
+      className="border border-white/20 px-6 py-3 rounded-xl hover:bg-white hover:text-black transition"
+    >
+      GitHub
+    </a>
+          
           <a href="#about" onClick={() => setMenuOpen(false)}>
             About
           </a>
 
           <a href="#projects" onClick={() => setMenuOpen(false)}>
             Projects
+          </a>
+
+          <a href="#skills" onClick={() => setMenuOpen(false)}>
+            Skills
           </a>
 
           <a href="#contact" onClick={() => setMenuOpen(false)}>

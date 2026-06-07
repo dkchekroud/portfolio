@@ -29,7 +29,7 @@ export default function Home() {
   href="/Academic CV - Kamelia Chekroud.pdf"
   className="border border-white px-6 py-3 rounded-xl hover:bg-white hover:text-black transition"
 >
-  Download CV
+  Academic CV
 </a>
       </section>
 
@@ -401,6 +401,14 @@ export default function Home() {
   📧 Email Me
 </a>
 
+<a
+      href="https://wa.me/qr/JXDQSSGKT4UOL1"
+      target="_blank"
+      className="border border-white/20 px-6 py-3 rounded-xl hover:bg-white hover:text-black transition"
+    >
+      WhatsApp
+    </a>
+
     <a
       href="https://github.com/dkchekroud"
       target="_blank"
@@ -416,7 +424,15 @@ export default function Home() {
     >
       LinkedIn
     </a>
+    
 
+    <a
+      href="https://www.facebook.com/chekroud.kamelia/"
+      target="_blank"
+      className="border border-white/20 px-6 py-3 rounded-xl hover:bg-white hover:text-black transition"
+    >
+      Facebook
+    </a>
   </div>
 
 </section>
