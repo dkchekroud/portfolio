@@ -57,6 +57,11 @@ export default function Navbar() {
           <a href="#about" className="hover:text-cyan-400 transition">
             {t("about")}
           </a>
+
+          <a href="#contact" className="hover:text-cyan-400 transition">
+            {t("contact")}
+          </a>
+
  <a href="#skills" onClick={() => setMenuOpen(false)}>
             {t("skills")}
           </a>
@@ -64,12 +69,7 @@ export default function Navbar() {
           <a href="#projects" className="hover:text-cyan-400 transition">
             {t("projects")}
           </a>
-          
-         
-          
-          <a href="#contact" className="hover:text-cyan-400 transition">
-            {t("contact")}
-          </a>
+        
         </div>
 
         
@@ -107,6 +107,10 @@ export default function Navbar() {
           <a href="#about" onClick={() => setMenuOpen(false)}>
             {t("about")}
           </a>
+          
+          <a href="#contact" onClick={() => setMenuOpen(false)}>
+            {t("contact")}
+          </a>
 
 <a href="#skills" onClick={() => setMenuOpen(false)}>
             {t("skills")}
@@ -116,11 +120,7 @@ export default function Navbar() {
             {t("projects")}
           </a>
 
-    
-
-          <a href="#contact" onClick={() => setMenuOpen(false)}>
-            {t("contact")}
-          </a>
+  
         </div>
       )}
     </nav>

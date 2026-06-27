@@ -21,7 +21,7 @@ export default function Hero() {
       </p>
 
       <a
-        href="/Academic CV - Kamelia Chekroud.pdf"
+        href="/Academic cv - chekroud kamelia.pdf"
         className="mt-10 border border-white px-6 py-3 rounded-xl hover:bg-white hover:text-black transition"
       >
         {t("cv")}
