@@ -1,8 +1,12 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Navbar() {
+  const t = useTranslations("navbar");
+
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -24,21 +28,23 @@ export default function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
 
         {/* Logo */}
         <h1 className="text-white text-2xl font-bold">
-          Portfolio
+          My Portfolio
         </h1>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex gap-8 text-white">
+
+        
+        <div className="hidden md:flex gap-8 rtl:flex-row-reverse text-white">
           
            <a
   href="mailto:chekroud.kamiii@gmail.com?subject=Contact Portfolio&body=Bonjour,"
   className="hover:text-cyan-400 transition"
 >
-  Email Me
+  {t("email")}
 </a>
 
 <a
@@ -49,23 +55,27 @@ export default function Navbar() {
     </a>
           
           <a href="#about" className="hover:text-cyan-400 transition">
-            About
+            {t("about")}
           </a>
-
-          <a href="#projects" className="hover:text-cyan-400 transition">
-            Projects
+ <a href="#skills" onClick={() => setMenuOpen(false)}>
+            {t("skills")}
           </a>
           
-          <a href="#skills" onClick={() => setMenuOpen(false)}>
-            Skills
+          <a href="#projects" className="hover:text-cyan-400 transition">
+            {t("projects")}
           </a>
+          
+         
           
           <a href="#contact" className="hover:text-cyan-400 transition">
-            Contact
+            {t("contact")}
           </a>
         </div>
 
-        {/* Mobile Button */}
+        
+       
+{/* Mobile Button */}
+<LanguageSwitcher />
         <button
           className="md:hidden text-white text-3xl"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -76,13 +86,15 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden bg-black border-t border-white/10 px-6 py-4 flex flex-col gap-4 text-white">
-          
+        <div className="md:hidden bg-black border-t border-white/10 px-6 py-4 flex flex-col gap-4 text-start text-white">
+      
+      
+
           <a
   href="mailto:chekroud.kamiii@gmail.com?subject=Contact Portfolio&body=Bonjour,"
   className="hover:text-cyan-400 transition"
 >
-  Email Me
+  {t("email")}
 </a>
 
 <a
@@ -93,19 +105,21 @@ export default function Navbar() {
     </a>
           
           <a href="#about" onClick={() => setMenuOpen(false)}>
-            About
+            {t("about")}
+          </a>
+
+<a href="#skills" onClick={() => setMenuOpen(false)}>
+            {t("skills")}
           </a>
 
           <a href="#projects" onClick={() => setMenuOpen(false)}>
-            Projects
+            {t("projects")}
           </a>
 
-          <a href="#skills" onClick={() => setMenuOpen(false)}>
-            Skills
-          </a>
+    
 
           <a href="#contact" onClick={() => setMenuOpen(false)}>
-            Contact
+            {t("contact")}
           </a>
         </div>
       )}

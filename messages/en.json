@@ -1,0 +1,70 @@
+{
+  "navbar": {
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact",
+    "email": "Email",
+    "github": "GitHub"
+  },
+
+  "hero": {
+    "title": "Kamelia CHEKROUD",
+    "subtitle": "FULL STACK DEVELOPER",
+    "description": "Passionate Full Stack Developer specialized in modern web applications, AI solutions and scalable educational platforms.",
+    "cv": "Academic CV"
+  },
+
+  "about": {
+  "subtitle": "About Me",
+  "title": "Full Stack Developer & AI Researcher",
+  "description1": "Passionate developer specialized in modern web technologies, educational platforms, and artificial intelligence solutions. Experienced in building scalable full-stack applications with multilingual support, admin dashboards, and responsive interfaces.",
+  "description2": "Currently working on software engineering and AI projects, combining clean UI/UX design with powerful backend architectures.",
+
+  "tech": "Technologies",
+  "projects": "Major Projects",
+  "ai": "Deep Learning",
+  "stack": "Full Stack Development"
+},
+"skills": {
+  "subtitle": "Skills",
+  "title": "Technologies I Use",
+
+  "frontend": "Frontend",
+  "backend": "Backend",
+  "ai": "AI & Data"
+},
+
+"contact": {
+  "subtitle": "Contact",
+  "title": "Let's Work Together",
+  "description": "Interested in collaborating, building innovative projects, or discussing opportunities in Full Stack Development and Artificial Intelligence.",
+
+  "email": "Email Me",
+  "whatsapp": "WhatsApp",
+  "github": "GitHub",
+  "linkedin": "LinkedIn",
+  "facebook": "Facebook"
+},
+
+"projects": {
+  "subtitle": "Projects",
+  "title": "Featured Projects",
+
+  "live": "Live Demo",
+  "research": "Research",
+  "details": "Details",
+
+  "project1": {
+    "description": "Dynamic multilingual educational platform with admin dashboard, e-learning integration, authentication system and responsive interface."
+  },
+
+  "project2": {
+    "description": "Deep learning project for efficient medical dataset compression while preserving diagnostic quality using neural networks."
+  }
+},
+
+"footer": {
+  "copyright": "Full Stack Developer"
+}
+}

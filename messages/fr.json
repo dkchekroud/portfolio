@@ -1,0 +1,71 @@
+{
+  "navbar": {
+    "about": "À propos",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "contact": "Contact",
+    "email": "Email",
+    "github": "GitHub"
+  },
+
+  "hero": {
+    "title": "Kamelia CHEKROUD",
+    "subtitle": "DÉVELOPPEUSE FULL STACK",
+    "description": "Développeuse Full Stack passionnée spécialisée dans les applications web modernes, l'intelligence artificielle et les plateformes éducatives.",
+    "cv": "CV Académique"
+  },
+
+  "about": {
+  "subtitle": "À propos",
+  "title": "Développeuse Full Stack & Chercheuse en IA",
+  "description1": "Développeuse passionnée spécialisée dans les technologies web modernes, les plateformes éducatives et les solutions d'intelligence artificielle. Expérience dans la conception d'applications Full Stack évolutives avec support multilingue, tableaux de bord administrateur et interfaces responsives.",
+  "description2": "Actuellement impliquée dans des projets d'ingénierie logicielle et d'intelligence artificielle, alliant une interface moderne à des architectures backend performantes.",
+
+  "tech": "Technologies",
+  "projects": "Grands projets",
+  "ai": "Deep Learning",
+  "stack": "Développement Full Stack"
+},
+
+"skills": {
+  "subtitle": "Compétences",
+  "title": "Technologies que j'utilise",
+
+  "frontend": "Frontend",
+  "backend": "Backend",
+  "ai": "IA & Données"
+},
+
+"contact": {
+  "subtitle": "Contact",
+  "title": "Travaillons ensemble",
+  "description": "Disponible pour collaborer sur des projets innovants, développer des applications Full Stack ou discuter d'opportunités dans le domaine du développement web et de l'intelligence artificielle.",
+
+  "email": "M'envoyer un email",
+  "whatsapp": "WhatsApp",
+  "github": "GitHub",
+  "linkedin": "LinkedIn",
+  "facebook": "Facebook"
+},
+
+"projects": {
+  "subtitle": "Projets",
+  "title": "Projets principaux",
+
+  "live": "Démo",
+  "research": "Recherche",
+  "details": "Détails",
+
+  "project1": {
+    "description": "Plateforme éducative multilingue avec tableau de bord administrateur, e-learning, authentification et interface responsive."
+  },
+
+  "project2": {
+    "description": "Projet de Deep Learning dédié à la compression de données médicales tout en préservant la qualité diagnostique."
+  }
+},
+
+"footer": {
+  "copyright": "Développeuse Full Stack"
+}
+}
