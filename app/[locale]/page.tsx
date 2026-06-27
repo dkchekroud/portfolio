@@ -9,15 +9,10 @@ import ScrollToTop from "@/components/ScrollToTop";
 
 export default function Home() {
   return (
-  <main
-  className="pt-28 min-h-screen text-white relative overflow-hidden
-  bg-gradient-to-br from-violet-800 via-[#24193d] to-[#101010]"
->
+ <main className="pt-28 bg-black text-white min-h-screen relative overflow-hidden">
+      <div className="absolute top-[-200px] left-[-200px] w-[600px] h-[600px] bg-purple-500/35 rounded-full blur-[160px]" />
 
-      <div className="absolute top-[-200px] left-[-200px] w-[600px] h-[600px] bg-violet-500/40 rounded-full blur-[170px]" />
-
-<div className="absolute bottom-[-200px] right-[-200px] w-[600px] h-[600px] bg-purple-500/25 rounded-full blur-[170px]" />
-
+<div className="absolute bottom-[-200px] right-[-200px] w-[600px] h-[600px] bg-blue-500/25 rounded-full blur-[160px]" />
       <Navbar />
 
       <Hero />
